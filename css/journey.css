@@ -1,0 +1,102 @@
+.elementor-9205 .elementor-element.elementor-element-f3ade92>.elementor-background-overlay {
+    background-image: url("http://dsngrid.com/images/wp/blackdsn/pattern.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.elementor-9205 .elementor-element.elementor-element-48ada48>.elementor-element-populated {
+    padding: 160px 0px 0px 0px;
+}
+
+.elementor-9205 .elementor-element.elementor-element-d5dd1f5>.elementor-container>.elementor-column>.elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-9205 .elementor-element.elementor-element-d5dd1f5 {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0px 0px 30px 0px;
+}
+
+.elementor-9205 .elementor-element.elementor-element-d5dd1f5>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-9205 .elementor-element.elementor-element-3a3af17>div {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.elementor-9205 .elementor-element.elementor-element-8c4b2ef .dsn-heading-title {
+    max-width: 350px;
+}
+
+.elementor-9205 .elementor-element.elementor-element-8c4b2ef>.elementor-widget-container {
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+}
+
+.elementor-9205 .elementor-element.elementor-element-dbbaaeb>.elementor-container>.elementor-column>.elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-9205 .elementor-element.elementor-element-dbbaaeb {
+    padding: 30px 0px 0px 0px;
+}
+
+.elementor-9205 .elementor-element.elementor-element-4fadf4f>div {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.elementor-9205 .elementor-element.elementor-element-c55fa40 .dsn-heading-title {
+    max-width: 350px;
+}
+
+.elementor-9205 .elementor-element.elementor-element-c55fa40>.elementor-widget-container {
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+}
+
+.elementor-9205 .elementor-element.elementor-element-0098e84 {
+    --grid-template-columns: repeat(0, auto);
+    --icon-size: 17px;
+    --grid-column-gap: 25px;
+    --grid-row-gap: 0px;
+}
+
+.elementor-9205 .elementor-element.elementor-element-0098e84 .elementor-widget-container {
+    text-align: right;
+}
+
+.elementor-9205 .elementor-element.elementor-element-0098e84 .elementor-social-icon {
+    background-color: #FFFFFF00;
+    --icon-padding: 0em;
+}
+
+.elementor-9205 .elementor-element.elementor-element-8bb6c29 .dsn-grid-layout {
+    --dsn-width-item: 2;
+    --dsn-col-item: 30px;
+    --dsn-row-item: 50px;
+}
+
+.elementor-9205 .elementor-element.elementor-element-8bb6c29 .post-title {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.elementor-9205 .elementor-element.elementor-element-8bb6c29 .entry-meta a {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media(max-width:767px) {
+    .elementor-9205 .elementor-element.elementor-element-8bb6c29 .dsn-grid-layout {
+        --dsn-width-item: 1;
+    }
+}

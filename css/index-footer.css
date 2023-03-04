@@ -1,0 +1,71 @@
+.elementor-3352 .elementor-element.elementor-element-47c7f593>.elementor-container>.elementor-column>.elementor-widget-wrap {
+    align-content: space-between;
+    align-items: space-between;
+}
+
+.elementor-3352 .elementor-element.elementor-element-47c7f593 {
+    overflow: hidden;
+}
+
+.elementor-3352 .elementor-element.elementor-element-39349a64>.elementor-container>.elementor-column>.elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-3352 .elementor-element.elementor-element-1cebb5a8 .dsn-heading-title {
+    text-transform: uppercase;
+}
+
+.elementor-3352 .elementor-element.elementor-element-6c174659 .dsn-heading-title {
+    text-transform: uppercase;
+}
+
+.elementor-3352 .elementor-element.elementor-element-50d9f591 .dsn-bg-mask {
+    --height-mask: 1px;
+    --top-mask: 50%;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+}
+
+body:not(.rtl) .elementor-3352 .elementor-element.elementor-element-50d9f591 {
+    left: 0px;
+}
+
+body.rtl .elementor-3352 .elementor-element.elementor-element-50d9f591 {
+    right: 0px;
+}
+
+.elementor-3352 .elementor-element.elementor-element-50d9f591 {
+    top: 0px;
+    z-index: 0;
+}
+
+.elementor-3352 .elementor-element.elementor-element-25bfc362 {
+    justify-content: end;
+    display: flex;
+}
+
+.elementor-3352 .elementor-element.elementor-element-25bfc362 .dsn-btn {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.elementor-3352 .elementor-element.elementor-element-25bfc362>.elementor-widget-container {
+    margin: 0px 50px 0px 50px;
+}
+
+.elementor-3352 .elementor-element.elementor-element-6b1c4fa3>.elementor-container>.elementor-column>.elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-3352 .elementor-element.elementor-element-6b1c4fa3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.elementor-3352 .elementor-element.elementor-element-19dca649 .dsn-socials .dsn-icon {
+    --dsn-icon-size: 16px;
+}
