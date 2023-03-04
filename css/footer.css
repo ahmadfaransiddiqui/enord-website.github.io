@@ -19,6 +19,7 @@
     margin: 0px 30px 0px 0px;
     --e-column-margin-right: 30px;
     --e-column-margin-left: 0px;
+    align-content: center;
 }
 
 .elementor-5404 .elementor-element.elementor-element-32f9045 img {
