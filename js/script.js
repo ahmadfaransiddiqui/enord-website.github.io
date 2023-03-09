@@ -969,21 +969,21 @@
             this.touchEventsData.formElements = "*";
           },
 
-          touchStart() {
-            gsap.to($(this.$el).find('.swiper-slide'), {
-              scale: 0.95,
-              ease: "none",
-              duration: 0.5
-            });
-          },
+          // touchStart() {
+          //   gsap.to($(this.$el).find('.swiper-slide'), {
+          //     scale: 0.95,
+          //     ease: "none",
+          //     duration: 0.1
+          //   });
+          // },
 
-          touchEnd() {
-            gsap.to($(this.$el).find('.swiper-slide'), {
-              scale: 1,
-              ease: "none",
-              duration: 0.5
-            });
-          }
+          // touchEnd() {
+          //   gsap.to($(this.$el).find('.swiper-slide'), {
+          //     scale: 1,
+          //     ease: "none",
+          //     duration: 0.1
+          //   });
+          // }
 
         }
       }, this.optionSwiper));

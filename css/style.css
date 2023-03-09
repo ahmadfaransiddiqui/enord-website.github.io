@@ -5049,7 +5049,8 @@ ul.intro-project-list li h5.title-list-project+p.description-list-project {
 }
 
 .dsn-team .team-item-inner .text-name+.text-position {
-  margin-top: 10px
+  margin-top: 10px;
+  display: none;
 }
 
 .dsn-team .team-item-inner .text-name,
@@ -5091,12 +5092,15 @@ ul.intro-project-list li h5.title-list-project+p.description-list-project {
 }
 
 .dsn-team .team-item-inner:hover .text-name {
-  transform: translateY(-10px)
+  /* transform: translateY(-10px); */
+  opacity: 0;
+  display: none;
 }
 
 .dsn-team .team-item-inner:hover .text-position {
   transform: translateY(-25px);
-  opacity: 0
+  opacity: 1;
+  display: inline;
 }
 
 .dsn-team .team-item-inner:hover .team-socials {
