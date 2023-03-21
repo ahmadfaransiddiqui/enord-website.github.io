@@ -79,7 +79,7 @@
   --font-weight-body: 400;
   --smooth-width: 4px;
   --bg-overlay: #0000009c;
-  --overlay-blend-mode: unset
+  --overlay-blend-mode: unset;
 }
 
 :root .dsn-icon-theme-color {
@@ -160,55 +160,11 @@ body {
   margin: 0;
   text-rendering: optimizeLegibility;
   transition: 100ms;
-  transition-property: background-color, color
+  transition-property: background-color, color;
+  font-family: 'Poppins', sans-serif;
 }
 
-#dsn_cursor,
-#dsn_cursor_inner {
-  position: fixed;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 99
-}
-
-body:not(.dsn-cursor-effect) #dsn_cursor,
-body:not(.dsn-cursor-effect) #dsn_cursor_inner {
-  display: none
-}
-
-@media only screen and (max-width:991px) {
-
-  #dsn_cursor,
-  #dsn_cursor_inner {
-    display: none
-  }
-}
-
-body.dsn-cursor-effect #dsn_cursor,
-body.dsn-cursor-effect #dsn_cursor_inner {
-  display: none
-}
-
-#dsn_cursor {
-  width: 30px;
-  height: 30px;
-  border: 2px solid var(--theme-color)
-}
-
-#dsn_cursor path {
-  display: none;
-  stroke-dasharray: 400;
-  stroke-dashoffset: 400;
-  stroke-width: 1
-}
-
-#dsn_cursor_inner {
-  width: 7px;
-  height: 7px;
-  background-color: var(--theme-color)
-}
+/* PreLoader */
 
 #dsn_preloader {
   position: fixed;
@@ -357,6 +313,8 @@ body.dsn-cursor-effect #dsn_cursor_inner {
   }
 }
 
+/* Day Night Mode  */
+
 .day-night {
   position: fixed;
   z-index: 100;
@@ -478,19 +436,7 @@ body.dsn-cursor-effect #dsn_cursor_inner {
   opacity: 1
 }
 
-embed,
-img,
-object,
-svg {
-  display: block;
-  height: auto;
-  max-width: 100%
-}
-
-* {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-}
+/* Navbar Logo */
 
 #site_menu_header .main-logo img {
   margin-top: 10px;

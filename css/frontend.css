@@ -371,14 +371,14 @@ h1.entry-title {
 }
 
 .elementor-section {
-    position: relative
+    position: relative;
 }
 
 .elementor-section .elementor-container {
     display: flex;
     margin-right: auto;
     margin-left: auto;
-    position: relative
+    position: relative;
 }
 
 @media (max-width:1024px) {
