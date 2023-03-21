@@ -5,7 +5,7 @@
 :root .v-light-head {
   --bg-color: #f9f9f9;
   --assistant-color: #efefef;
-  --theme-color: #e4dcd3;
+  --theme-color: #d3e4e2;
   --theme-color-font: #fff;
   --font-color: #0009;
   --heading-color: #000;
@@ -14,7 +14,8 @@
   --reverse-color: #141414;
   --reverse-heading-color: #fff;
   --bg-btn: #f6fafd;
-  --divider-color: var(--border-color)
+  --divider-color: var(--border-color);
+  --background-image: url(/)
 }
 
 :root .v-dark,
@@ -80,10 +81,6 @@
   --smooth-width: 4px;
   --bg-overlay: #0000009c;
   --overlay-blend-mode: unset;
-}
-
-:root .dsn-icon-theme-color {
-  --theme-color: #f7e0c7
 }
 
 @media only screen and (min-width:1400px) {
