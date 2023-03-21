@@ -163,7 +163,7 @@ body {
 
 /* PreLoader */
 
-#dsn_preloader {
+#enord_preloader {
   position: fixed;
   width: 100vw;
   max-width: 100%;
@@ -174,29 +174,29 @@ body {
   left: 0
 }
 
-#dsn_preloader .bg-load {
+#enord_preloader .bg-load {
   z-index: -1
 }
 
 @media only screen and (min-width:992px) {
-  #dsn_preloader {
+  #enord_preloader {
     --width-loading-circle: 25vw
   }
 }
 
 @media only screen and (max-width:991px) {
-  #dsn_preloader {
+  #enord_preloader {
     --width-loading-circle: 50vw
   }
 }
 
-#dsn_preloader .loading-circle,
-#dsn_preloader svg.v-middle {
+#enord_preloader .loading-circle,
+#enord_preloader svg.v-middle {
   width: var(--width-loading-circle);
   height: var(--width-loading-circle)
 }
 
-#dsn_preloader svg.v-middle path {
+#enord_preloader svg.v-middle path {
   display: block;
   stroke-dasharray: 310px;
   stroke-dashoffset: 310px;
@@ -208,78 +208,18 @@ body {
   stroke-width: 1.4
 }
 
-#dsn_preloader .loading-circle {
+#enord_preloader .loading-circle {
   font-size: 7vw;
   border-radius: 50%;
   border: 1px solid #000
 }
 
-#dsn_preloader .loading-text {
+#enord_preloader .loading-text {
   position: absolute;
   font-size: 22px;
   color: var(--heading-color);
   left: var(--dsn-gap-container);
   bottom: 50px
-}
-
-.dsnload {
-  top: 22px;
-  left: var(--dsn-gap-container);
-  display: none
-}
-
-.dsnload .dsnload__img {
-  display: block;
-  transform-origin: bottom left;
-  animation: moveIn 2s 0s cubic-bezier(0.36, 0, 0.06, 1) alternate infinite
-}
-
-.dsnload .dsnload__img img {
-  width: 96px
-}
-
-.dsnload .dsnload__row:first-child {
-  -webkit-clip-path: polygon(-10% 75%, 110% 75%, 110% 110%, -10% 110%);
-  clip-path: polygon(-10% 75%, 110% 75%, 110% 110%, -10% 110%)
-}
-
-.dsnload .dsnload__row:first-child .dsnload__img {
-  transform: translateY(-0.1em)
-}
-
-.dsnload .dsnload__row:nth-child(2) {
-  -webkit-clip-path: polygon(-10% 50%, 110% 50%, 110% 75.3%, -10% 75.3%);
-  clip-path: polygon(-10% 50%, 110% 50%, 110% 75.3%, -10% 75.3%)
-}
-
-.dsnload .dsnload__row:nth-child(2) .dsnload__img {
-  transform: translateY(-0.3em) scaleY(1.1)
-}
-
-.dsnload .dsnload__row:nth-child(3) {
-  -webkit-clip-path: polygon(-10% 25%, 110% 25%, 110% 50.3%, -10% 50.3%);
-  clip-path: polygon(-10% 25%, 110% 25%, 110% 50.3%, -10% 50.3%)
-}
-
-.dsnload .dsnload__row:nth-child(3) .dsnload__img {
-  transform: translateY(-0.5em) scaleY(1.2)
-}
-
-.dsnload .dsnload__row:nth-child(4) {
-  -webkit-clip-path: polygon(-10% 0%, 110% 0%, 110% 25.3%, -10% 25.3%);
-  clip-path: polygon(-10% 0%, 110% 0%, 110% 25.3%, -10% 25.3%)
-}
-
-.dsnload .dsnload__row:nth-child(4) .dsnload__img {
-  transform: translateY(-0.7em) scaleY(1.3)
-}
-
-.dsnload .dsnload__row.dsnload__row--sibling {
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-user-select: none;
-  user-select: none
 }
 
 @keyframes moveIn {
@@ -1535,49 +1475,34 @@ a:hover {
   transform: translateY(-100%)
 }
 
-.dsnload__img img,
 .main-brand img {
   width: 80px;
   max-width: 100%;
   height: auto
 }
 
-#dsn_footer.v-light .dsnload__img .logo-dark,
 #dsn_footer.v-light .main-brand .logo-dark,
-.dsnload__img .logo-dark,
 .main-brand .logo-dark,
-.v-light #dsn_footer:not(.v-light, .v-dark) .dsnload__img .logo-dark,
 .v-light #dsn_footer:not(.v-light, .v-dark) .main-brand .logo-dark,
-.v-light #site_menu_header .dsnload__img .logo-dark,
 .v-light #site_menu_header .main-brand .logo-dark {
   display: block
 }
 
-#dsn_footer.v-light .dsnload__img .logo-light,
 #dsn_footer.v-light .main-brand .logo-light,
-.dsnload__img .logo-light,
 .main-brand .logo-light,
-.v-light #dsn_footer:not(.v-light, .v-dark) .dsnload__img .logo-light,
 .v-light #dsn_footer:not(.v-light, .v-dark) .main-brand .logo-light,
-.v-light #site_menu_header .dsnload__img .logo-light,
 .v-light #site_menu_header .main-brand .logo-light {
   display: none
 }
 
-#dsn_footer.v-dark .dsnload__img .logo-dark,
 #dsn_footer.v-dark .main-brand .logo-dark,
-.v-dark #dsn_footer:not(.v-light, .v-dark) .dsnload__img .logo-dark,
 .v-dark #dsn_footer:not(.v-light, .v-dark) .main-brand .logo-dark,
-.v-dark #site_menu_header .dsnload__img .logo-dark,
 .v-dark #site_menu_header .main-brand .logo-dark {
   display: none
 }
 
-#dsn_footer.v-dark .dsnload__img .logo-light,
 #dsn_footer.v-dark .main-brand .logo-light,
-.v-dark #dsn_footer:not(.v-light, .v-dark) .dsnload__img .logo-light,
 .v-dark #dsn_footer:not(.v-light, .v-dark) .main-brand .logo-light,
-.v-dark #site_menu_header .dsnload__img .logo-light,
 .v-dark #site_menu_header .main-brand .logo-light {
   display: block
 }

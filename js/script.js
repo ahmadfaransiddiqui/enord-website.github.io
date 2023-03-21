@@ -294,7 +294,7 @@
 
 
   function preloader() {
-    const preloader = $("#dsn_preloader");
+    const preloader = $("#enord_preloader");
 
     if (!preloader.length) {
       window.addEventListener('DOMContentLoaded', function () {
