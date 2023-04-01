@@ -121,6 +121,23 @@
 
 
   function initMap($el = $(document)) {
+    var dsnParam = {
+      "queries": "https://dsngrid.com/blackdsn/wp-admin/admin-ajax.php?action=blackdsn_post_query",
+      "ajaxStyle": "https://dsngrid.com/blackdsn/wp-admin/admin-ajax.php?action=blackdsn_style_query",
+      "map": {
+        "marker_icon": "images/icons/map-marker.png",
+        "api": "AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg"
+      },
+      "cursor": {
+        "speed": 0.35,
+        "speedInner": 0.15
+      },
+      "scrollbar": {
+        "speed": 0.09
+      },
+      "dsn_csrf": "c130b0c808",
+      "name": "enord"
+    };
     const map_id = $el.find(".map-custom"),
           mapScriptId = document.getElementById("map_api");
     if (map_id.length <= 0) return; // Styles a map in night mode.
@@ -764,6 +781,12 @@
         return !hasSc;
       },
       contactForm: function () {
+        var wpcf7 = {
+          "api": {
+            "root": "https:\/\/dsngrid.com\/blackdsn\/wp-json\/",
+            "namespace": "contact-form-7\/v1"
+          }
+        };
         const form = $('.contact-modal .contact-container');
         if (form.length) Scrollbar.init(form.get(0), {
           damping: dsnParam.scrollbar.speed
