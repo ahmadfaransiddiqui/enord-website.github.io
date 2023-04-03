@@ -2160,12 +2160,13 @@ a:hover {
 
 @media only screen and (max-width:767px) {
   #dsn_header:not(.header-normal, .header-padding, .dsn-full-header) {
-    padding: 0
+    padding: 0;
   }
 
   #dsn_header:not(.header-normal, .header-padding, .dsn-full-header) #hero_content,
   #dsn_header:not(.header-normal, .header-padding, .dsn-full-header) .entry-header {
-    min-height: 100vh
+    min-height: 100vh;
+    margin-top: 90px;
   }
 }
 
